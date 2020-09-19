@@ -1,0 +1,3 @@
+"advanceDiscount=0&depart=Sydney&departDate=09%2F17%2F2020&arrive=Zurich&returnDate=09%2F24%2F2"
+"020&numPassengers=1&roundtrip=on&seatPref=None&seatType=Coach&findFlights.x=52&findFlights.y=8"
+"&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"

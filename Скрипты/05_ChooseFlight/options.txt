@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\john_\Documents\VuGen\Scripts\05_ChooseFlight
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\john_\documents\vugen\scripts\05_chooseflight\\logfile.log
+c:\users\john_\documents\vugen\scripts\05_chooseflight\\combined_05_ChooseFlight.c
+c:\users\john_\documents\vugen\scripts\05_chooseflight\\pre_cci.c

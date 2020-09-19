@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\john_\Documents\VuGen\Scripts\04_BuyTicket
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\john_\documents\vugen\scripts\04_buyticket\\logfile.log
+c:\users\john_\documents\vugen\scripts\04_buyticket\\combined_04_BuyTicket.c
+c:\users\john_\documents\vugen\scripts\04_buyticket\\pre_cci.c

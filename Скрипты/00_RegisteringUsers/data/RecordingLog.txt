@@ -1,0 +1,684 @@
+[API Trapper      (14f4:3594)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (414c:424c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 490: 354)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 490:3e28)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 490:3e28)] Load Network Traffic Analyzers:
+[Network Analyzer ( 490:3e28)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 490:3e28)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 490:3e28)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 490:3e28)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 490:3e28)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 490:3e28)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 490:3e28)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 490:311c)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 173.194.222.84:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 52.86.242.95:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:2e80)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 52.86.242.95:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 91.228.153.47:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 64.233.161.95:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 91.228.153.47:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 91.228.153.47:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 87.250.250.41:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( 490:3e30)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:36c0)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490: 5d8)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490: dd8)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:40f4)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:42d0)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:29ac)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:2e80)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 188.165.30.217:80   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( 490: 5d8)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:40f4)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:42d0)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3e30)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:36c0)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:311c)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid:  9) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 45.79.133.252:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 45.79.133.252:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer ( 490:311c)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid:  7) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 45.79.133.252:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 45.79.133.252:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer ( 490:29ac)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490: dd8)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 109.236.84.112:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 109.236.84.112:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[API Trapper      (1cf8:3bbc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 109.236.84.112:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 109.236.84.112:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 188.165.11.106:80   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 490:311c)]   (Sid:  1) Client -> Server @ : 2330 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer ( 490:311c)]   (Sid:  1) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:311c)]   (Sid:  1) Server -> Client : 1621 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid:  1) Server -> Client : 330 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid:  1) Server -> Client : 33 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:2d04)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:2370)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 188.165.66.29:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 188.165.66.29:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[API Trapper      (2c6c:355c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 73c:35a8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 188.165.66.29:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 188.165.66.29:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3a90)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 185.132.134.249:80   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490: 568)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 178.32.113.122:80   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:1c58)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 94.23.169.231:80   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490: 8f4)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:311c)]   (Sid: 16) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 212.8.248.73:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 212.8.248.73:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer ( 490:311c)]   (Sid:  5) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 212.8.248.73:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 212.8.248.73:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer ( 490:311c)]   (Sid:  8) Client -> Server @ : 4128 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "POST /sovetnik"   
+[Network Analyzer ( 490:311c)]   (Sid:  8) Client -> Server @ : 13 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:311c)]   (Sid:  8) Server -> Client : 625 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid:  8) Server -> Client : 16 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 188.165.30.217:80   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 91.228.153.47:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:2f70)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 91.228.153.47:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( 490:42fc)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:1070)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 165.22.206.33:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer ( 490: 974)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:366c)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 185.199.108.153:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer ( 490:2370)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:2d04)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:311c)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer ( 490:3318)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 212.8.248.87:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 212.8.248.87:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 212.8.248.87:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 212.8.248.87:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10060)
+[Web Request      ( 490:311c)] "GET /WebTours/"   
+[Network Analyzer ( 490:311c)]   (Sid: 12) Client -> Server @ : 548 bytes (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:311c)]   (Sid: 12) Server -> Client : 665 bytes  (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 64.233.162.95:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer ( 490:3a90)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490: 568)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490: 8f4)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:1c58)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:311c)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:280c)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 64.233.162.95:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer ( 490:3384)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 54.36.113.17:80   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490: 348)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 108.177.14.188:5228   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      ( 490:311c)] "GET /dns-query?dns=m9MBAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 11) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:42fc)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:1070)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490: 974)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:366c)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:2f70)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3318)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:311c)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 11) Server -> Client : 1076 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 173.194.73.94:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 32)  PROXIED!
+[Web Request      ( 490:311c)] "GET /dns-query?dns=0aMBAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 13) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "GET /dns-query?dns=spMBAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 14) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:280c)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Error    ( 490:3384)] SSLAccept(ssl_id = 2385648639728 = 0000022B73BD5EF0) Failed, ctx = 0000022B739AB7C0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490: 348)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Error    ( 490:3384)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 490:311c)]   (Sid: 13) Server -> Client : 1077 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 14) Server -> Client : 1077 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3b14)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 91.228.153.47:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3434)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:21ac)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:1f3c)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 91.228.153.47:443   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer ( 490:417c)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3b44)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 5.187.0.244:443   (Service=)  (Sid= 35)  PROXIED!
+[Web Request      ( 490:311c)] "GET /safebrowsing/csd/client_model_v5_variation_0.pb"   
+[Network Analyzer ( 490:311c)]   (Sid: 23) Client -> Server @ : 380 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "GET /dns-query?dns=cA4BAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 19) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "GET /blog/posts.json?date=2020-09-16"   
+[Network Analyzer ( 490:311c)]   (Sid: 24) Client -> Server @ : 452 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:3b44)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 490:311c)] "POST /oauth2/v4/token"   
+[Network Analyzer ( 490:311c)]   (Sid: 25) Client -> Server @ : 740 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "POST /geolocation/v1/geolocate?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer ( 490:311c)]   (Sid: 27) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 19) Server -> Client : 1077 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /eapi/extension/blocked"   
+[Network Analyzer ( 490:311c)]   (Sid: 33) Client -> Server @ : 1120 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:3b14)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:21ac)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:1f3c)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 25) Server -> Client : 1125 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 24) Server -> Client : 524 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 25) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3434)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 24) Server -> Client : 162 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 27) Server -> Client : 901 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 29) Client -> Server @ : 155 bytes (SSL)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 27) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:417c)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 33) Server -> Client : 2646 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 29) Server -> Client : 1 bytes (SSL)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 29) Server -> Client : 66 bytes (SSL)
+[Web Request      ( 490:311c)] "GET /dns-query?dns=oogBAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 30) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 31) Client -> Server @ : 1105 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 29) Server -> Client : 12 bytes (SSL)
+[Web Request      ( 490:311c)] "POST /service/update2/json?cup2key=10:2892187776&cup2hreq=d78eaea45949ae91cf79c9e6ef55d80de5ba6dd8877ea633f409800ecef88d62"   
+[Network Analyzer ( 490:311c)]   (Sid: 31) Client -> Server @ : 5501 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 983 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3174)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 30) Server -> Client : 1077 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /dns-query?dns=ZSgBAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 32) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3174)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 31) Server -> Client : 1322 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 31) Server -> Client : 817 bytes (SSL) (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /eapi/user/notifications?locale=ru_RU"   
+[Network Analyzer ( 490:311c)]   (Sid: 34) Client -> Server @ : 1134 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 31) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 32) Server -> Client : 1077 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Server -> Client : 1148 bytes (SSL) (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /dns-query?dns=dcUBAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 32) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 32) Server -> Client : 1076 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer ( 490:3f98)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:311c)]   (Sid: 34) Server -> Client : 2443 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3f98)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 490:311c)] "GET /adblock.txt"   
+[Network Analyzer ( 490:311c)]   (Sid: 35) Client -> Server @ : 1125 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:3038)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3038)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:311c)]   (Sid: 35) Server -> Client : 15737 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 26) Connection Terminated (by Client)
+[Web Request      ( 490:311c)] "GET /dns-query?dns=2RoBAAABAAAAAAABCGNsaWVudHM0Bmdvb2dsZQNjb20AAAEAAQAAKRAAAAAAAABQAAwATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 36) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:311c)]   (Sid: 36) Server -> Client : 1076 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e08)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:1564)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 40)  PROXIED!
+[Web Request      ( 490:311c)] "GET /dns-query?dns=6VUBAAABAAAAAAABCWdhdHBzc3RhdANjb20AAAEAAQAAKRAAAAAAAABWAAwAUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 36) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490: 4c8)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:311c)]   (Sid: 36) Server -> Client : 1078 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 64.233.162.100:443   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer ( 490:3e08)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:1564)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490: 670)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:345c)]   (Sid: 41) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:311c)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer ( 490:40e8)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:AES128-SHA)
+[Network Analyzer ( 490: 4c8)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3b2c)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:AES128-SHA)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 188.165.30.217:80   (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer ( 490: 670)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:2004)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:AES128-SHA)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:311c)]   (Sid: 33) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 34) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 35) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:311c)]   (Sid: 45) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:311c)]   (Sid: 28) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      ( 490:311c)] "GET /dns-query?dns=VUABAAABAAAAAAABEW1ldHJpY3MtYXBwLWM5YjQ5CmZpcmViYXNlaW8DY29tAAABAAEAACkQAAAAAAAAQwAMAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 37) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "GET /dns-query?dns=xNEBAAABAAAAAAABCmRhcmtyZWFkZXIDb3JnAAABAAEAACkQAAAAAAAAVQAMAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 38) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:311c)]   (Sid: 37) Server -> Client : 1077 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 38) Server -> Client : 1078 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 178.32.113.122:80   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer ( 490:311c)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer ( 490:311c)]   (Sid: 38) Connection Terminated (by Client)
+[Web Request      ( 490:311c)] "GET /dns-query?dns=z6QBAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 30) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:345c)]   (Sid: 41) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 47)  PROXIED!
+[Web Request      ( 490:311c)] "POST /?1600268451677&kf5ib4st"   
+[Network Analyzer ( 490:311c)]   (Sid: 46) Client -> Server @ : 646 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 30) Server -> Client : 1077 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer ( 490:40e8)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3b2c)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:2004)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:311c)]   (Sid: 46) Server -> Client : 541 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 42) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 43) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 44) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 46) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 35.201.97.85:443   (Service=)  (Sid= 48)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 185.199.108.153:443   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 51)  PROXIED!
+[Web Request      ( 490:311c)] "POST /oauth2/v4/token"   
+[Network Analyzer ( 490:311c)]   (Sid: 25) Client -> Server @ : 691 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( 490:311c)]   (Sid: 47) Client -> Server @ : 596 bytes (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /WebTours/header.html"   
+[Network Analyzer ( 490:311c)]   (Sid: 50) Client -> Server @ : 585 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 50) Server -> Client : 1009 bytes  (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer ( 490:311c)]   (Sid: 50) Client -> Server @ : 487 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 50) Server -> Client : 899 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 25) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 25) Server -> Client : 378 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 25) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 47) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 47) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 490:1130)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:41b8)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( 490:42c8)]   (Sid: 51) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:311c)]   (Sid: 50) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 47) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 52)  PROXIED!
+[Network Analyzer ( 490:1130)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Error    ( 490:41b8)] SSLAccept(ssl_id = 2385645261760 = 0000022B7389D3C0) Failed, ctx = 0000022B739AB3D0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Network Analyzer ( 490:42c8)]   (Sid: 51) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Error    ( 490:41b8)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Web Request      ( 490:311c)] "GET /config.json"   
+[Network Analyzer ( 490:311c)]   (Sid: 48) Client -> Server @ : 418 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "GET /v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINODUuMC40MTgzLjEwMhopCAUQARobCg0IBRAGGAEiAzAwMTABEOCkCRoCGAN5J8ZeIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDk7wcaAhgDvhbjZiIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQ5PoHGgIYA6tY_xgiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEOCQCBoCGAMdYH7MIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYA1m8dH0iBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEEOMbGgIYA7PO_2ciBCABIAIoBBonCAkQARoZCg0ICRAGGAEiAzAwMTAGEAMaAhgDcqfsqSIEIAEgAigGGigIDxABGhoKDQgPEAYYASIDMDAxMAEQmEEaAhgDw1WHmyIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBhoCGAMAEXKWIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAdGgIYA2MFLfkiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEN8JGgIYA7q3f6wiBCABIAIoARooCA0QARoaCg0IDRAGGAEiAzAwMTABEMF7GgIYA-QUa3wiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEPiiBBoCGAOWk--GIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARC8BRoCGAMQJvB7IgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer ( 490:311c)]   (Sid: 51) Client -> Server @ : 1277 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer ( 490:311c)]   (Sid: 52) Client -> Server @ : 488 bytes (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 37.9.2.213:443   (Service=)  (Sid= 53)  PROXIED!
+[Network Analyzer ( 490:311c)]   (Sid: 52) Server -> Client : 4488 bytes  (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /dns-query?dns=NJUBAAABAAAAAAABE29hdXRoYWNjb3VudG1hbmFnZXIKZ29vZ2xlYXBpcwNjb20AAAEAAQAAKRAAAAAAAABBAAwAPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 36) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( 490:311c)]   (Sid: 52) Client -> Server @ : 637 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 51) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 51) Server -> Client : 1360 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 36) Server -> Client : 1077 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:217c)]   (Sid: 53) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:AES128-SHA)
+[Network Analyzer ( 490:311c)]   (Sid: 52) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 52) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 48) Server -> Client : 1640 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 49) Connection Terminated (by Client)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:311c)]   (Sid: 52) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:217c)]   (Sid: 53) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 54)  PROXIED!
+[Network Analyzer ( 490:311c)]   (Sid: 53) Client -> Server @ : 571 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "POST /ext/stat"   
+[Network Analyzer ( 490:311c)]   (Sid: 53) Client -> Server @ : 3708 bytes (SSL)(Service=HTTP)
+[Web Request      ( 490:311c)] "GET /WebTours/home.html"   
+[Network Analyzer ( 490:311c)]   (Sid: 54) Client -> Server @ : 633 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 54) Server -> Client : 1661 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 53) Server -> Client : 816 bytes (SSL) (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( 490:311c)]   (Sid: 54) Client -> Server @ : 519 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 54) Server -> Client : 977 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid:  1) Connection Terminated (by Server)
+[Web Request      ( 490:311c)] "GET /dns-query?dns=JZsBAAABAAAAAAABEGNvbnRlbnQtYXV0b2ZpbGwKZ29vZ2xlYXBpcwNjb20AAAEAAQAAKRAAAAAAAABEAAwAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 14) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 14) Server -> Client : 1077 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 55)  PROXIED!
+[Web Request      ( 490:311c)] "GET /favicon.ico"   
+[Network Analyzer ( 490:311c)]   (Sid: 54) Client -> Server @ : 488 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 54) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer ( 490:34c0)]   (Sid: 55) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:34c0)]   (Sid: 55) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Web Request      ( 490:311c)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCU35IjnBRbgwEgkN541ADhIAGgASCQ3OQUx6EgAaAA==?alt=proto"   
+[Network Analyzer ( 490:311c)]   (Sid: 55) Client -> Server @ : 551 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 56)  PROXIED!
+[Network Analyzer ( 490:311c)]   (Sid: 55) Server -> Client : 665 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 54) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 53) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent sign_up_now [Web Request      ( 490:311c)] "GET /cgi-bin/login.pl?username=&password=&getInfo=true"   
+[Network Analyzer ( 490:311c)]   (Sid: 56) Client -> Server @ : 671 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 56) Server -> Client : 2665 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 56) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /WebTours/profileValidate.js"   
+[Network Analyzer ( 490:311c)]   (Sid: 56) Client -> Server @ : 498 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 56) Server -> Client : 11602 bytes  (Service=HTTP)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:311c)]   (Sid: 56) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 57)  PROXIED!
+[Web Request      ( 490:311c)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer ( 490:311c)]   (Sid: 57) Client -> Server @ : 548 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 57) Server -> Client : 1057 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 57) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent sign_up_now [Network Analyzer ( 490:311c)]   (Sid: 48) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent complete_form [Web Request      ( 490:311c)] "GET /dns-query?dns=oLMBAAABAAAAAAABA2Nkbghqc2RlbGl2cgNuZXQAAAEAAQAAKRAAAAAAAABTAAwATwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer ( 490:311c)]   (Sid: 36) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 36) Server -> Client : 1077 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 41) Connection Terminated (by Client)
+[Network Analyzer ( 490:311c)]   (Sid: 39) Connection Terminated (by Client)
+[Network Analyzer ( 490:311c)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 104.16.89.20:443   (Service=)  (Sid= 58)  PROXIED!
+[Network Analyzer ( 490:163c)]   (Sid: 58) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 490:163c)]   (Sid: 58) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 490:311c)] "GET /gh/curbengh/urlhaus-filter/urlhaus-filter-online.txt"   
+[Network Analyzer ( 490:311c)]   (Sid: 58) Client -> Server @ : 443 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1285 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 168 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 58) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 59)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Web Request      ( 490:311c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( 490:311c)]   (Sid: 59) Client -> Server @ : 916 bytes (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 60)  PROXIED!
+[Network Analyzer ( 490:311c)]   (Sid: 59) Server -> Client : 1433 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 59) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 59) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent complete_form [User action                 ] StartTransactionEvent continue [Web Request      ( 490:311c)] "GET /cgi-bin/welcome.pl?page=menus"   
+[Network Analyzer ( 490:311c)]   (Sid: 60) Client -> Server @ : 750 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 60) Server -> Client : 819 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 60) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( 490:311c)]   (Sid: 60) Client -> Server @ : 746 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 60) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 60) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:311c)]   (Sid: 60) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 61)  PROXIED!
+[Web Request      ( 490:311c)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( 490:311c)]   (Sid: 61) Client -> Server @ : 741 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 61) Server -> Client : 1153 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 61) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:311c)]   (Sid: 61) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 62)  PROXIED!
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 63)  PROXIED!
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 64)  PROXIED!
+[Web Request      ( 490:311c)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( 490:311c)]   (Sid: 62) Client -> Server @ : 628 bytes (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( 490:311c)]   (Sid: 63) Client -> Server @ : 630 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 62) Server -> Client : 1025 bytes  (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( 490:311c)]   (Sid: 64) Client -> Server @ : 628 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 63) Server -> Client : 1032 bytes  (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( 490:311c)]   (Sid: 62) Client -> Server @ : 628 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 64) Server -> Client : 987 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 62) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 65)  PROXIED!
+[Network Analyzer ( 490:311c)]   (Sid: 63) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 64) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 62) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 27) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 31) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent continue [User action                 ] StartTransactionEvent sign_off [Web Request      ( 490:311c)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( 490:311c)]   (Sid: 65) Client -> Server @ : 765 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 65) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 65) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 490:311c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( 490:311c)]   (Sid: 65) Client -> Server @ : 634 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 65) Server -> Client : 1743 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 65) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:311c)]   (Sid: 65) Connection Terminated (by Server)
+[Net An. Warning  ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 490:3e28)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 490:3e28)] Address lookup for blue = 192.168.0.13
+[Network Analyzer ( 490:3e28)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 66)  PROXIED!
+[Web Request      ( 490:311c)] "GET /WebTours/home.html"   
+[Network Analyzer ( 490:311c)]   (Sid: 66) Client -> Server @ : 731 bytes (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 66) Server -> Client : 195 bytes  (Service=HTTP)
+[Network Analyzer ( 490:311c)]   (Sid: 66) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer ( 490:311c)]   (Sid: 51) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent sign_off 

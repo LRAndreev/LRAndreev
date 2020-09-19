@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\john_\Documents\VuGen\Scripts\02_FindFlight
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\john_\documents\vugen\scripts\02_findflight\\logfile.log
+c:\users\john_\documents\vugen\scripts\02_findflight\\combined_02_FindFlight.c
+c:\users\john_\documents\vugen\scripts\02_findflight\\pre_cci.c

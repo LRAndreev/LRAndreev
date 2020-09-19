@@ -1,0 +1,55 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: WebTours",
+                "infFile": "t2.inf",
+                "time": 1600354806381
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1600354806965
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t4.inf",
+                "time": 1600354807601
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "loadWebTours",
+                "rawStartTime": 1600354805762,
+                "rawEndTime": 1600354806382,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0953366756439209
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1600354806384,
+                "rawEndTime": 1600354806967,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0809783935546875
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1600354806970,
+                "rawEndTime": 1600354807603,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08943724632263184
+            },
+            {
+                "transactionName": "06_LoginLogout",
+                "rawStartTime": 1600354805757,
+                "rawEndTime": 1600354807604,
+                "thinkTime": 0.0,
+                "wastedTime": 0.26575231552124026
+            }
+        ]
+    }
+]

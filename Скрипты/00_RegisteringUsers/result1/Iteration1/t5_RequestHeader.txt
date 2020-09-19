@@ -1,0 +1,16 @@
+GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Dest: frame
+Sec-Fetch-Mode: navigate
+DNT: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,de;q=0.6,ja;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:1080
+Cookie: MSO=SID&1600270258; MTUserInfo=firstName&Jojo1&address2&&username&gleb&hash&66&lastName&Bean1&address1&&creditCard&&expDate&
+
