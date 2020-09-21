@@ -128,6 +128,7 @@ Action()
 			"Ord=ALL",
 			"NotFound=ERROR",
 			LAST);
+			
 	
 			web_url("Itinerary Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -140,6 +141,7 @@ Action()
 				LAST);
 			
 			before = atoi(lr_eval_string("{flightID_before_count}"));
+			lr_output_message("Value of before is %d, user is %s", before, lr_eval_string("{login}"));
 
 	lr_end_transaction("click_itinerary",LR_AUTO);
 
@@ -156,57 +158,31 @@ Action()
 				"Ord=ALL",
 				"NotFound=WARNING",
 				LAST);
+			
+//			web_reg_save_param("flights_after",
+//		"LB=A total of ",
+//		"RB= scheduled",
+//		LAST);
 
 				                                
-			web_reg_find("Fail=Found",
-				"Text=we could not delete",
-				LAST);
+//			web_reg_find("Fail=Found",
+//				"Text=we could not delete",
+//				LAST);
 			
 			random = atoi(lr_eval_string("{randomNum}"));
 			
 			lr_output_message("Random value is %d", random);
 			
-				web_submit_form("web_submit_form",
-				ITEMDATA,
-				"Name=1", "Value=on", ENDITEM,
-				"Name=removeFlights.x", "Value=52", ENDITEM, 
-				"Name=removeFlights.y", "Value=9", ENDITEM,
-				EXTRARES,		
-				"URL=http://localhost:1080/cgi-bin/itinerary.pl", 
-				"Referer=http://localhost:1080/cgi-bin/itinerary.pl", ENDITEM,
-				LAST);
+			submit_form();
 		
-			if (random == 2 && before >= random) {
-			
-				web_submit_form("web_submit_form",
-				ITEMDATA,
-				"Name=1", "Value=on", ENDITEM,
-				"Name=removeFlights.x", "Value=52", ENDITEM, 
-				"Name=removeFlights.y", "Value=9", ENDITEM,
-				EXTRARES,		
-				"URL=http://localhost:1080/cgi-bin/itinerary.pl", 
-				"Referer=http://localhost:1080/cgi-bin/itinerary.pl", ENDITEM,
-				LAST);
-			} else if (random == 3 && before >= random) {
-				web_submit_form("web_submit_form",
-				ITEMDATA,
-				"Name=1", "Value=on", ENDITEM,
-				"Name=removeFlights.x", "Value=52", ENDITEM, 
-				"Name=removeFlights.y", "Value=9", ENDITEM,
-				EXTRARES,		
-				"URL=http://localhost:1080/cgi-bin/itinerary.pl", 
-				"Referer=http://localhost:1080/cgi-bin/itinerary.pl", ENDITEM,
-				LAST);
+			if ((random == 2) && (before >= random)) {
 				
-				web_submit_form("web_submit_form",
-				ITEMDATA,
-				"Name=1", "Value=on", ENDITEM,
-				"Name=removeFlights.x", "Value=52", ENDITEM, 
-				"Name=removeFlights.y", "Value=9", ENDITEM,
-				EXTRARES,		
-				"URL=http://localhost:1080/cgi-bin/itinerary.pl", 
-				"Referer=http://localhost:1080/cgi-bin/itinerary.pl", ENDITEM,
-				LAST);
+				submit_form();
+			
+			} else if ((random == 3) && (before >= random)) {
+				
+				submit_form();
+				submit_form();
 			}
 		
 			

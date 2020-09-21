@@ -1,0 +1,19 @@
+POST /cgi-bin/itinerary.pl HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
+Referer: http://localhost:1080/cgi-bin/itinerary.pl
+Origin: http://localhost:1080
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Dest: frame
+Sec-Fetch-Mode: navigate
+DNT: 1
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:1080
+Cookie: MSO=SID&1600531949; MTUserInfo=firstName&Jojo6&address2&&username&jojo6&hash&86&lastName&Bean6%0A&address1&&creditCard&&expDate&%0A
+Content-Length: 527
+

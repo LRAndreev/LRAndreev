@@ -26,6 +26,7 @@ ScriptLocale=en-US
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
+submit_form=submit_form.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -38,18 +39,22 @@ globals.h=
 [Modified Actions]
 vuser_init=0
 Action=1
+submit_form=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
 Action=0
+submit_form=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
 Action=1
+submit_form=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
 Action=cci
+submit_form=cci
 vuser_end=cci
 [TransactionsOrder]
 Order="03_CancelFlight__*delimiter*__loadWebTours__*delimiter*__login__*delimiter*__click_itinerary__*delimiter*__cancel_flight__*delimiter*__logout"

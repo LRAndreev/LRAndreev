@@ -1,0 +1,87 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP41",
+                "stepName": "Url: WebTours",
+                "infFile": "t2.inf",
+                "time": 1600531951280
+            },
+            {
+                "stepId": "STEP42",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1600531951564
+            },
+            {
+                "stepId": "STEP43",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t4.inf",
+                "time": 1600531951818
+            },
+            {
+                "stepId": "STEP44",
+                "stepName": "Submit Form: web_submit_form",
+                "infFile": "t5.inf",
+                "time": 1600531952119
+            },
+            {
+                "stepId": "STEP45",
+                "stepName": "Submit Form: web_submit_form",
+                "infFile": "t6.inf",
+                "time": 1600531952399
+            },
+            {
+                "stepId": "STEP46",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t7.inf",
+                "time": 1600531952811
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "loadWebTours",
+                "rawStartTime": 1600531950914,
+                "rawEndTime": 1600531951282,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09504055976867676
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1600531951284,
+                "rawEndTime": 1600531951566,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0828397274017334
+            },
+            {
+                "transactionName": "click_itinerary",
+                "rawStartTime": 1600531951569,
+                "rawEndTime": 1600531951824,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03988957405090332
+            },
+            {
+                "transactionName": "cancel_flight",
+                "rawStartTime": 1600531951826,
+                "rawEndTime": 1600531952411,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07341313362121582
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1600531952413,
+                "rawEndTime": 1600531952813,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03288698196411133
+            },
+            {
+                "transactionName": "03_CancelFlight",
+                "rawStartTime": 1600531950909,
+                "rawEndTime": 1600531952815,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3240699768066406
+            }
+        ]
+    }
+]

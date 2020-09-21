@@ -1,7 +1,7 @@
 [Profile Actions]
 MercIniTreeFather=""
 MercIniTreeSectionName="Profile Actions"
-Profile Actions name=vuser_init,Action,vuser_end
+Profile Actions name=vuser_init,Action,submit_form,vuser_end
 [RunLogicEndRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicEndRoot"
@@ -62,8 +62,8 @@ RunLogicAfterPaceMin="60"
 RunLogicNumOfIterations="1"
 RunLogicObjectKind="Group"
 RunLogicPaceConstAfterTime="60"
-RunLogicPaceConstTime="60"
-RunLogicPaceType="Asap"
+RunLogicPaceConstTime="99"
+RunLogicPaceType="Const"
 RunLogicRandomPaceMax="90"
 RunLogicRandomPaceMin="60"
 RunLogicRunMode="Sequential"

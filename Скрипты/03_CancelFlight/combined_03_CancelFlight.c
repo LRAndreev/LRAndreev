@@ -3,4 +3,5 @@
 #include "globals.h"
 #include "vuser_init.c"
 #include "Action.c"
+#include "submit_form.c"
 #include "vuser_end.c"
