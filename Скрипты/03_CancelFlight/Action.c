@@ -173,23 +173,23 @@ Action()
 			
 			lr_output_message("Random value is %d", random);
 			
-			submit_form();
-		
-			if ((random == 2) && (before >= random)) {
+			if (random == 1) {
+				delete_one();
 				
-				submit_form();
+			} else if ((random == 2) && (before >= random)) {
+				
+				delete_two();
 			
 			} else if ((random == 3) && (before >= random)) {
 				
-				submit_form();
-				submit_form();
+				delete_three();
 			}
 		
 			
 			after = atoi(lr_eval_string("{flightID_after_count}"));
 			
 			if(before > after/2) {
-				lr_output_message("Success. Value of before is %d value of after is %d", before, after/2);
+				lr_output_message("Success. Value of before is %d value of after is %d random value is %d", before, after/2, random);
 			} else {
 				lr_error_message("Fail");
 			}

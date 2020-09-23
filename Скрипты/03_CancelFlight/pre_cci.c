@@ -1,4 +1,4 @@
-# 1 "c:\\users\\john_\\documents\\vugen\\scripts\\03_cancelflight\\\\combined_03_CancelFlight.c"
+# 1 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\03_cancelflight\\\\combined_03_CancelFlight.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\john_\\documents\\vugen\\scripts\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
+# 1 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\john_\\documents\\vugen\\scripts\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
+# 2 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
 
 # 1 "globals.h" 1
 
@@ -2589,14 +2589,14 @@ void
  
 
 
-# 3 "c:\\users\\john_\\documents\\vugen\\scripts\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
+# 3 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\john_\\documents\\vugen\\scripts\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
+# 4 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2760,37 +2760,37 @@ Action()
 				"NotFound=WARNING",
 				"LAST");
 			
-			web_reg_save_param("flights_after",
-		"LB=A total of ",
-		"RB= scheduled",
-		"LAST");
+ 
+ 
+ 
+ 
 
 				                                
-			web_reg_find("Fail=Found",
-				"Text=we could not delete",
-				"LAST");
+ 
+ 
+ 
 			
 			random = atoi(lr_eval_string("{randomNum}"));
 			
 			lr_output_message("Random value is %d", random);
 			
-			submit_form();
-		
-			if ((random == 2) && (before >= random)) {
+			if (random == 1) {
+				delete_one();
 				
-				submit_form();
+			} else if ((random == 2) && (before >= random)) {
+				
+				delete_two();
 			
 			} else if ((random == 3) && (before >= random)) {
 				
-				submit_form();
-				submit_form();
+				delete_three();
 			}
 		
 			
 			after = atoi(lr_eval_string("{flightID_after_count}"));
 			
 			if(before > after/2) {
-				lr_output_message("Success. Value of before is %d value of after is %d", before, after/2);
+				lr_output_message("Success. Value of before is %d value of after is %d random value is %d", before, after/2, random);
 			} else {
 				lr_error_message("Fail");
 			}
@@ -2867,10 +2867,45 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\john_\\documents\\vugen\\scripts\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
+# 5 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
 
-# 1 "submit_form.c" 1
-submit_form()
+# 1 "delete_three.c" 1
+delete_three()
+{
+	web_submit_form("web_submit_form",
+				"ITEMDATA",
+				"Name=1", "Value=on", "ENDITEM",
+				"Name=2", "Value=on", "ENDITEM",
+				"Name=3", "Value=on", "ENDITEM",
+				"Name=removeFlights.x", "Value=52", "ENDITEM", 
+				"Name=removeFlights.y", "Value=9", "ENDITEM",
+				"EXTRARES",		
+				"URL=http://localhost:1080/cgi-bin/itinerary.pl", 
+				"Referer=http://localhost:1080/cgi-bin/itinerary.pl", "ENDITEM",
+				"LAST");
+	return 0;
+}
+# 6 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
+
+# 1 "delete_two.c" 1
+delete_two()
+{
+	web_submit_form("web_submit_form",
+				"ITEMDATA",
+				"Name=1", "Value=on", "ENDITEM",
+				"Name=2", "Value=on", "ENDITEM",
+				"Name=removeFlights.x", "Value=52", "ENDITEM", 
+				"Name=removeFlights.y", "Value=9", "ENDITEM",
+				"EXTRARES",		
+				"URL=http://localhost:1080/cgi-bin/itinerary.pl", 
+				"Referer=http://localhost:1080/cgi-bin/itinerary.pl", "ENDITEM",
+				"LAST");
+	return 0;
+}
+# 7 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
+
+# 1 "delete_one.c" 1
+delete_one()
 {
 	web_submit_form("web_submit_form",
 				"ITEMDATA",
@@ -2883,12 +2918,12 @@ submit_form()
 				"LAST");
 	return 0;
 }
-# 6 "c:\\users\\john_\\documents\\vugen\\scripts\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
+# 8 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 7 "c:\\users\\john_\\documents\\vugen\\scripts\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
+# 9 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\03_cancelflight\\\\combined_03_CancelFlight.c" 2
 
