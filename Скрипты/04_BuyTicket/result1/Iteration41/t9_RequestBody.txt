@@ -1,4 +1,0 @@
-"firstName=Jojo&lastName=&address1=First+str&address2=Denver+123456&pass1=Jojo+&creditCard=1111"
-"+2222+3333+4444&expDate=01%2F22&oldCCOption=&numPassengers=1&seatType=Business&seatPref=Window"
-"&outboundFlight=013%3B458%3B09%2F20%2F2020&advanceDiscount=0&returnFlight=100%3B559%3B09%2F27%"
-"2F2020&JSFormSubmit=off&buyFlights.x=51&buyFlights.y=13&.cgifields=saveCC"

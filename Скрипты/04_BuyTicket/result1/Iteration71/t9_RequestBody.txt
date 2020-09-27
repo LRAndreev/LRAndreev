@@ -1,5 +1,0 @@
-"firstName=Jojo&lastName=&address1=First+str&address2=Denver+123456&pass1=Jojo+&pass2=Jojo1+&pa"
-"ss3=Jojo2+&creditCard=1111+2222+3333+4444&expDate=01%2F22&oldCCOption=&numPassengers=3&seatTyp"
-"e=Business&seatPref=Window&outboundFlight=013%3B458%3B09%2F20%2F2020&advanceDiscount=0&returnF"
-"light=100%3B559%3B09%2F27%2F2020&JSFormSubmit=off&buyFlights.x=51&buyFlights.y=13&.cgifields=s"
-"aveCC"

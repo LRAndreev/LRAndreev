@@ -1,4 +1,0 @@
-"firstName=Jojo7&lastName=&address1=Eighth+str&address2=Seattle+123499&pass1=Jojo7+&creditCard="
-"8888+2222+3333+4444&expDate=08%2F22&oldCCOption=&numPassengers=1&seatType=First&seatPref=Aisle"
-"&outboundFlight=783%3B1230%3B09%2F20%2F2020&advanceDiscount=0&returnFlight=870%3B1503%3B09%2F2"
-"7%2F2020&JSFormSubmit=off&buyFlights.x=51&buyFlights.y=13&.cgifields=saveCC"

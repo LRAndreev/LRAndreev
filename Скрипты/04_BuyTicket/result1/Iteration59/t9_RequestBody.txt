@@ -1,4 +1,0 @@
-"firstName=Jojo8&lastName=&address1=Ninth+str&address2=Sydney+123599&pass1=Jojo8+&pass2=Jojo81+"
-"&creditCard=9999+2222+3333+4444&expDate=09%2F22&oldCCOption=&numPassengers=2&seatType=Business"
-"&seatPref=Window&outboundFlight=893%3B1273%3B09%2F20%2F2020&advanceDiscount=0&returnFlight=980"
-"%3B1556%3B09%2F27%2F2020&JSFormSubmit=off&buyFlights.x=51&buyFlights.y=13&.cgifields=saveCC"

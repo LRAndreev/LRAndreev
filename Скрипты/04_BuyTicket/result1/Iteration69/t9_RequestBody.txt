@@ -1,5 +1,0 @@
-"firstName=Jojo8&lastName=&address1=Ninth+str&address2=Sydney+123599&pass1=Jojo8+&pass2=Jojo81+"
-"&pass3=Jojo82+&creditCard=9999+2222+3333+4444&expDate=09%2F22&oldCCOption=&numPassengers=3&sea"
-"tType=Coach&seatPref=None&outboundFlight=893%3B878%3B09%2F20%2F2020&advanceDiscount=0&returnFl"
-"ight=980%3B1073%3B09%2F27%2F2020&JSFormSubmit=off&buyFlights.x=51&buyFlights.y=13&.cgifields=s"
-"aveCC"

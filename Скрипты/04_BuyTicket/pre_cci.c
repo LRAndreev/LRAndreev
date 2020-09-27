@@ -1,4 +1,4 @@
-# 1 "c:\\users\\john_\\documents\\vugen\\scripts\\04_buyticket\\\\combined_04_BuyTicket.c"
+# 1 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\04_buyticket\\\\combined_04_BuyTicket.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\john_\\documents\\vugen\\scripts\\04_buyticket\\\\combined_04_BuyTicket.c" 2
+# 1 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\04_buyticket\\\\combined_04_BuyTicket.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\john_\\documents\\vugen\\scripts\\04_buyticket\\\\combined_04_BuyTicket.c" 2
+# 2 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\04_buyticket\\\\combined_04_BuyTicket.c" 2
 
 # 1 "globals.h" 1
 
@@ -2589,14 +2589,14 @@ void
  
 
 
-# 3 "c:\\users\\john_\\documents\\vugen\\scripts\\04_buyticket\\\\combined_04_BuyTicket.c" 2
+# 3 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\04_buyticket\\\\combined_04_BuyTicket.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\john_\\documents\\vugen\\scripts\\04_buyticket\\\\combined_04_BuyTicket.c" 2
+# 4 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\04_buyticket\\\\combined_04_BuyTicket.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2906,7 +2906,7 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\john_\\documents\\vugen\\scripts\\04_buyticket\\\\combined_04_BuyTicket.c" 2
+# 5 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\04_buyticket\\\\combined_04_BuyTicket.c" 2
 
 # 1 "pass1.c" 1
 pass1()
@@ -2941,7 +2941,7 @@ pass1()
 				"LAST");
 	return 0;
 }
-# 6 "c:\\users\\john_\\documents\\vugen\\scripts\\04_buyticket\\\\combined_04_BuyTicket.c" 2
+# 6 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\04_buyticket\\\\combined_04_BuyTicket.c" 2
 
 # 1 "pass2.c" 1
 pass2()
@@ -2977,7 +2977,7 @@ pass2()
 				"LAST");
 	return 0;
 }
-# 7 "c:\\users\\john_\\documents\\vugen\\scripts\\04_buyticket\\\\combined_04_BuyTicket.c" 2
+# 7 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\04_buyticket\\\\combined_04_BuyTicket.c" 2
 
 # 1 "pass3.c" 1
 pass3()
@@ -3014,12 +3014,12 @@ pass3()
 				"LAST");
 	return 0;
 }
-# 8 "c:\\users\\john_\\documents\\vugen\\scripts\\04_buyticket\\\\combined_04_BuyTicket.c" 2
+# 8 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\04_buyticket\\\\combined_04_BuyTicket.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 9 "c:\\users\\john_\\documents\\vugen\\scripts\\04_buyticket\\\\combined_04_BuyTicket.c" 2
+# 9 "c:\\users\\john_\\desktop\\\356\341\363\367\345\355\350\345\\git\\lrandreev\\\361\352\360\350\357\362\373\\04_buyticket\\\\combined_04_BuyTicket.c" 2
 

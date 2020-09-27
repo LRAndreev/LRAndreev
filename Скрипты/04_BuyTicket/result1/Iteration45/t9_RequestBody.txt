@@ -1,4 +1,0 @@
-"firstName=Jojo4&lastName=&address1=Fifth+str&address2=Paris+123469&pass1=Jojo4+&pass2=Jojo41+&"
-"creditCard=5555+2222+3333+4444&expDate=05%2F22&oldCCOption=&numPassengers=2&seatType=Coach&sea"
-"tPref=None&outboundFlight=453%3B508%3B09%2F20%2F2020&advanceDiscount=0&returnFlight=540%3B621%"
-"3B09%2F27%2F2020&JSFormSubmit=off&buyFlights.x=51&buyFlights.y=13&.cgifields=saveCC"

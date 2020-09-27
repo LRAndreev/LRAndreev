@@ -1,5 +1,0 @@
-"firstName=Jojo1&lastName=&address1=Second+str&address2=Frankfurt+123457&pass1=Jojo1+&pass2=Joj"
-"o11+&pass3=Jojo12+&creditCard=2222+2222+3333+4444&expDate=02%2F22&oldCCOption=&numPassengers=3"
-"&seatType=First&seatPref=Aisle&outboundFlight=123%3B408%3B09%2F20%2F2020&advanceDiscount=0&ret"
-"urnFlight=210%3B499%3B09%2F27%2F2020&JSFormSubmit=off&buyFlights.x=51&buyFlights.y=13&.cgifiel"
-"ds=saveCC"
